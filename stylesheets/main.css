@@ -1,0 +1,237 @@
+* {
+	border: 0px solid red !important;
+	max-width: 100%;
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1 {
+	color: red;
+}
+body {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	background-color: #CACACA;
+	height: 100px;
+	border-radius: 5px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+
+}
+.headerpicbox {
+	width: 10%;
+	float: left;
+	height: 100%;
+	text-align: center;
+	padding-top: 24px;
+}
+.headertextbox {
+	width: 90%;
+	height: 100%;
+	float: right;
+}
+.name {
+	width: 100%;
+	height: 65%;
+	text-align: right;
+	font-size: 50px;
+	font-family: "Libre Baskerville", sans-serif;
+	font-weight: bold;
+	padding: 0px 5px 0px 0px;
+}
+.jtitle {
+	width: 100%;
+	height:35%;
+	text-align: right;
+	font-family: "Libre Baskerville", sans-serif;
+	font-size: 25px;
+	padding: 0px 5px 0px 0px;
+}
+.middlephoto {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.middlephoto img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+}
+.projectdeets {
+	width: 100%;
+	height: 30%;
+	display: flex;
+}
+.project {
+	width: 33.33%;
+	height: 100%;
+	margin: 0px 3px 0px 3px;
+}
+.projecttitle{
+	width:100%;
+	height:10%;	
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Libre Baskerville", sans-serif;
+	padding-top: 3px;
+	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+	border-radius: 5px;
+}
+
+.projectphoto {
+	width: 100%;
+	height: 75%;
+	text-align: center;
+}
+
+.projectphoto img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+}
+.projectdes {
+	width: 100%;
+	height:10%;
+	text-align: center;
+	padding: 5px 5px 0px 5px;
+	font-family: "Libre Baskerville", sans-serif;
+	margin-bottom: 20px;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+a:active {
+	text-decoration: none;
+	color: black;
+}
+.divide {
+	width: 100%;
+	height: 5px;
+	background-color: black;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+.fw {
+	width:100%;
+	height: 60px;
+	font-size: 40px;
+	font-family: "Libre Baskerville", sans-serif;
+	padding-top: 5px;
+	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.minidiv {
+	width: 100%;
+	margin: 0 auto;
+	height: 2px;
+	background-color: black;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.projectdeetsL {
+	display: none;
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media only screen and (max-width: 767px) {
+	.minidiv {
+		display: none;
+	}
+	.projectdeets {
+		display: none;
+	}
+	.projectdeetsL {
+		width: 100%;
+		height: 300px;
+		display: flex;
+		display: flex;
+		flex-direction: column;
+	}
+	.projectphoto {
+		float: left;
+		max-height: 90px;
+		max-width: 132px;
+		height: 100%;
+		width: 30%;
+		/*margin: 0 auto;*/
+		padding-left: 2px;
+		padding-top: 2px;
+	}
+	.projectphoto img {
+		height: 86px;
+		float: left;
+	}
+	.projecttitle {
+		float: left;
+		height: 50%;
+		width: 70%;
+		text-align: left;
+		padding-left: 5px;
+		padding-top: 10px;
+		background-image: none;
+	}
+	.projectdes {
+		float: left;
+		height: 50%;
+		width: 70%;
+		text-align: left;
+		padding-top: 5px;
+	}
+	.project {
+		height: 33%;
+		width: 100%;
+		margin: 5px 5px 5px 5px;
+		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+	}
+	.fw {
+		height: 40px;
+		font-size: 25px
+	}
+	.header {
+		height: 60px;
+	}
+	.headerpicbox {
+		display: none;
+	}
+	.headertextbox {
+		width: 100%;
+	}
+	.name {
+		font-size: 30px;
+	}
+	.jtitle {
+		font-size: 15px;
+	}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* I had an issue with resizing the bottom pictures so that the text remained 
+     close to the picture. Once I fixed that, I felt no need to add any extra css
+     for tablets as it resized very well*/
+}
