@@ -1,6 +1,7 @@
 * {
 	border: 0px solid red !important;
 	max-width: 100%;
+}
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -158,7 +159,6 @@ a:active {
 	display: none;
 }
 
-/* #### Mobile Phones Portrait or Landscape #### */
 @media only screen and (max-width: 767px) {
 	.minidiv {
 		display: none;
@@ -228,10 +228,7 @@ a:active {
 	.jtitle {
 		font-size: 15px;
 	}
+}
 
-/* #### Tablets Portrait or Landscape #### */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
-  /* I had an issue with resizing the bottom pictures so that the text remained 
-     close to the picture. Once I fixed that, I felt no need to add any extra css
-     for tablets as it resized very well*/
 }
