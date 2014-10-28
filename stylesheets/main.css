@@ -159,6 +159,14 @@ a:active {
 .projectdeetsL {
 	display: none;
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.projectdeets {
+		display: inline;
+	}
+	.projectdeetsL {
+		display: block;
+	}
+}
 @media only screen and (max-width: 767px) {
 	.minidiv {
 		display: none;
@@ -231,15 +239,5 @@ a:active {
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 	.projecttitle {
 		font-size: 15px;
-	}
-}
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	.projectdeets {
-		display: flex;
-		flex-direction: row;
-	}
-	.projectdeetsL {
-		display: flex;
-		flex-direction: column;
 	}
 }
