@@ -72,7 +72,6 @@ body {
 	width: 100%;
 	height: 30%;
 	display: flex;
-	max-height: 300px;
 }
 .project {
 	width: 33.33%;
@@ -159,6 +158,7 @@ a:active {
 .projectdeetsL {
 	display: none;
 }
+
 @media only screen and (max-width: 767px) {
 	.minidiv {
 		display: none;
