@@ -181,7 +181,7 @@ a:active {
 		width: 100%;
 		height: 300px;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 	}
 	.projectphoto {
 		float: left;
@@ -250,7 +250,7 @@ a:active {
 		width: 100%;
 		height: 300px;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 	}
 	.projectphoto {
 		float: left;
