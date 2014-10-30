@@ -1,6 +1,6 @@
 * {
 	border: 0px solid red !important;
-	max-width: 1024px;
+	max-width: 100%;
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -12,7 +12,7 @@ h1 {
 	color: red;
 }
 body {
-	width: 100%;
+	width: 1024%;
 	margin: 0 auto;
 }
 
