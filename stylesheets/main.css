@@ -75,7 +75,7 @@ body {
 	max-height: 300px;
 }
 .project {
-	width: 32.74%;
+	width: calc(33.33% - 6px);
 	height: 100%;
 	margin: 0px 3px 0px 3px;
 	float: left;
@@ -165,7 +165,7 @@ a:active {
 		width: 100%;
 	}
 	.project {
-		width: 32.4%;
+		width: calc(33.33% - 6px);
 	}
 	.projectdeetsL {
 		display: none;
