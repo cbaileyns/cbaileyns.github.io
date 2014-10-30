@@ -1,3 +1,6 @@
+html {
+	border-sizing: border-box;
+}
 * {
 	border: 0px solid red !important;
 	max-width: 100%;
@@ -6,7 +9,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
-	box-sizing: border-box;
+	box-sizing: inherit;
 }
 h1 {
 	color: red;
@@ -161,74 +164,13 @@ a:active {
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 	* {
-		border: 0px solid red !important;
-		max-width: 100%;
-	}
-	* {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
-		box-sizing: border-box;
-	}
+		width: 100%;
 	h1 {
 		color: red;
 	}
 	body {
-		max-width: 1024px;
-		margin: 0 auto;
-	}
-	
-	.header {
-		width: 100%;
-		display: flex;
-		background-color: #CACACA;
-		height: 100px;
-		border-radius: 5px;
-		margin-bottom: 0px;
-		margin-top: 5px;
-		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
-	
-	}
-	.headerpicbox {
-		width: 10%;
-		float: left;
-		height: 100%;
-		text-align: center;
-		padding-top: 24px;
-	}
-	.headertextbox {
-		width: 90%;
-		height: 100%;
-		float: right;
-	}
-	.name {
-		width: 100%;
-		height: 65%;
-		text-align: right;
-		font-size: 50px;
-		font-family: "Libre Baskerville", sans-serif;
-		font-weight: bold;
-		padding: 0px 5px 0px 0px;
-	}
-	.jtitle {
-		width: 100%;
-		height:35%;
-		text-align: right;
-		font-family: "Libre Baskerville", sans-serif;
-		font-size: 25px;
-		padding: 0px 5px 0px 0px;
-	}
-	.middlephoto {
-		margin-bottom: 0px;
-		margin-top: 0px;
-	}
-	
-	.middlephoto img {
-		width: auto;
-		height: auto;
 		max-width: 100%;
-		max-height: 100%;
-		border-radius: 5px;
+		margin: 0 auto;
 	}
 	.projectdeets {
 		width: 100%;
@@ -237,7 +179,7 @@ a:active {
 		max-height: 300px;
 	}
 	.project {
-		width: 33.33%;
+		width: 32%;
 		height: 100%;
 		margin: 0px 3px 0px 3px;
 	}
@@ -273,31 +215,6 @@ a:active {
 		padding: 5px 5px 0px 5px;
 		font-family: "Libre Baskerville", sans-serif;
 		margin-bottom: 20px;
-	}
-	a:link {
-		text-decoration: none;
-		color: black;
-	}
-	a:visited {
-		text-decoration: none;
-		color: black;
-	}
-	a:hover {
-		text-decoration: none;
-		font-weight: bold;
-		color: black;
-	}
-	a:active {
-		text-decoration: none;
-		color: black;
-	}
-	.divide {
-		width: 100%;
-		height: 5px;
-		background-color: black;
-		margin-bottom: 5px;
-		margin-top: 5px;
-		border-radius: 5px;
 	}
 	.fw {
 		width:100%;
