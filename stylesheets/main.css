@@ -228,13 +228,3 @@ a:active {
 		font-size: 15px;
 	}
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
-	.projecttitle {
-		font-size: 15px;
-	}
-}
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	.projecttitle {
-		font-size: 60px;
-	}
-}
