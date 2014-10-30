@@ -171,6 +171,64 @@ a:active {
 	}
 }
 @media only screen and (max-width: 767px) {
+	}
+	body {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.header {
+		width: 100%;
+		display: flex;
+		background-color: #CACACA;
+		height: 100px;
+		border-radius: 5px;
+		margin-bottom: 0px;
+		margin-top: 5px;
+		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+
+	}
+	.headerpicbox {
+		width: 10%;
+		float: left;
+		height: 100%;
+		text-align: center;
+		padding-top: 24px;
+	}
+	.headertextbox {
+		width: 90%;
+		height: 100%;
+		float: right;
+	}
+	.name {
+		width: 100%;
+		height: 65%;
+		text-align: right;
+		font-size: 50px;
+		font-family: "Libre Baskerville", sans-serif;
+		font-weight: bold;
+		padding: 0px 5px 0px 0px;
+	}
+	.jtitle {
+		width: 100%;
+		height:35%;
+		text-align: right;
+		font-family: "Libre Baskerville", sans-serif;
+		font-size: 25px;
+		padding: 0px 5px 0px 0px;
+	}
+	.middlephoto {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	.middlephoto img {
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%;
+		border-radius: 5px;
+	}
 	.minidiv {
 		display: none;
 	}
@@ -181,7 +239,7 @@ a:active {
 		width: 100%;
 		height: 300px;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.projectphoto {
 		float: left;
@@ -240,6 +298,63 @@ a:active {
 	}
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	body {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.header {
+		width: 100%;
+		display: flex;
+		background-color: #CACACA;
+		height: 100px;
+		border-radius: 5px;
+		margin-bottom: 0px;
+		margin-top: 5px;
+		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+
+	}
+	.headerpicbox {
+		width: 10%;
+		float: left;
+		height: 100%;
+		text-align: center;
+		padding-top: 24px;
+	}
+	.headertextbox {
+		width: 90%;
+		height: 100%;
+		float: right;
+	}
+	.name {
+		width: 100%;
+		height: 65%;
+		text-align: right;
+		font-size: 50px;
+		font-family: "Libre Baskerville", sans-serif;
+		font-weight: bold;
+		padding: 0px 5px 0px 0px;
+	}
+	.jtitle {
+		width: 100%;
+		height:35%;
+		text-align: right;
+		font-family: "Libre Baskerville", sans-serif;
+		font-size: 25px;
+		padding: 0px 5px 0px 0px;
+	}
+	.middlephoto {
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	.middlephoto img {
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%;
+		border-radius: 5px;
+	}
 	.minidiv {
 		display: none;
 	}
@@ -250,7 +365,7 @@ a:active {
 		width: 100%;
 		height: 300px;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.projectphoto {
 		float: left;
@@ -309,3 +424,4 @@ a:active {
 		font-size: 15px;
 	}
 }
+
