@@ -165,6 +165,7 @@ a:active {
 	}
 	.projectdeets {
 		display: flex;
+		width: 50%;
 	}
 	.project {
 		width: 30%;
