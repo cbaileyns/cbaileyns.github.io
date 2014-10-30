@@ -163,9 +163,10 @@ a:active {
 	.projectdeets {
 		display: flex;
 		width: 100%;
+		flex-direction: row;
 	}
 	.project {
-		width: 100%;
+		width: 33.33%;
 	}
 	.projectdeetsL {
 		display: none;
