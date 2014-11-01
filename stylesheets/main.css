@@ -247,6 +247,7 @@ a:active {
 	}
 	.minidiv {
 		width: 100%;
+		display: inline-block;
 		margin: 0 auto;
 		height: 2px;
 		background-color: black;
