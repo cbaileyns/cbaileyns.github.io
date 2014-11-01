@@ -291,10 +291,11 @@ a:active {
 	}
 	.project {
 		height: 33%;
-		width: 50%;
+		width: 100%;
 		margin: 2px 5px 2px 5px;
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		display: block;
+		border-radius: 5px;
 	}
 	.fw {
 		height: 33px;
