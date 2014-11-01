@@ -265,10 +265,10 @@ a:active {
 		width: 30%;
 		/*margin: 0 auto;*/
 		padding-left: 2px;
-		padding-top: 2px;
+		padding-top: 5px;
 	}
 	.projectphoto img {
-		height: 86px;
+		height: 100%;
 		float: left;
 	}
 	.projecttitle {
