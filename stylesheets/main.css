@@ -246,8 +246,13 @@ a:active {
 		font-size: 40px;
 	}
 	.minidiv {
-		display: none;
-	}
+		width: 100%;
+		margin: 0 auto;
+		height: 2px;
+		background-color: black;
+		border-radius: 5px;
+		margin-bottom: 1px;
+		margin-top: 1px;
 	.projectdeets {
 		display: none;
 	}
