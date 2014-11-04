@@ -304,8 +304,7 @@ a:active {
 		height: 33%;
 		width: 100%;
 		margin: 2px 5px 2px 5px;
-		background-image: none;
-		background-color: gray;
+		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		display: block;
 		border-radius: 5px;
 	}
