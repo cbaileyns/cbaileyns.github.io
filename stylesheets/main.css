@@ -318,9 +318,11 @@ a:active {
 		height: 33px;
 		font-size: 20px;
 		padding-top: 2px;
+		width: 100%;
 	}
 	.header {
 		height: 60px;
+		width: 100%;
 	}
 	.headerpicbox {
 		display: none;
@@ -333,5 +335,11 @@ a:active {
 	}
 	.jtitle {
 		font-size: 13px;
+	}
+	.middlephoto {
+		width: 100%;
+	}
+	.divide {
+		width: 100%;
 	}
 }
