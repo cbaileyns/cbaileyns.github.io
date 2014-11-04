@@ -148,7 +148,7 @@ a:active {
 	width: calc(100%-6px);
 }
 .fw {
-	width:calc(100%-6px);
+	width: calc(100%-6px);
 	height: 60px;
 	font-size: 40px;
 	font-family: "Libre Baskerville", sans-serif;
