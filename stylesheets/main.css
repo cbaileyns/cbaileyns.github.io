@@ -280,7 +280,7 @@ a:active {
 		/*margin: 0 auto;*/
 		padding-left: 2px;
 		padding-top: 2px;
-		border: 1px solid black;
+		border: 1px solid black !important;
 	}
 	.projectphoto img {
 		height: 100%;
@@ -310,7 +310,7 @@ a:active {
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		display: block;
 		border-radius: 5px;
-		border: 1px solid black;
+		border: 1px solid black !important;
 	}
 	.fw {
 		height: 33px;
