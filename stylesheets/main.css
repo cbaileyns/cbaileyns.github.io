@@ -148,7 +148,7 @@ a:active {
 	border-radius: 5px;
 }
 .fw {
-	width:100%;
+	width: calc(100%-6px);
 	height: 60px;
 	font-size: 40px;
 	font-family: "Libre Baskerville", sans-serif;
@@ -156,6 +156,8 @@ a:active {
 	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 	border-radius: 5px;
 	padding-left: 10px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 .minidiv {
 	width: 100%;
