@@ -280,6 +280,7 @@ a:active {
 		/*margin: 0 auto;*/
 		padding-left: 2px;
 		padding-top: 2px;
+		border: 1px solid black;
 	}
 	.projectphoto img {
 		height: 100%;
@@ -306,8 +307,7 @@ a:active {
 		height: 33%;
 		width: 100%;
 		margin: 0px 0px 2px 0px;
-		background-image: none;
-		background-color: gray;
+		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		display: block;
 		border-radius: 5px;
 	}
