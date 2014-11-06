@@ -191,10 +191,12 @@ a:active {
 		display: none;
 	}
 	.projectdeetsL {
-		width: 100%;
+		width: calc(100%-6px);
 		height: 300px;
 		display: flex;
 		flex-direction: column;
+		margin-left: 3px;
+		margin-right: 3px;
 	}
 	.projectphoto {
 		float: left;
@@ -263,10 +265,11 @@ a:active {
 		display: none;
 	}
 	.projectdeetsL {
-		width: 100%;
+		width: calc(100%-6px);
 		height: 300px;
 		display: inline-block;
-		margin: 0px 0px 0px 0px;
+		margin-left: 3px;
+		margin-right: 3px;
 		
 	}
 	.projectphoto {
