@@ -310,6 +310,7 @@ a:active {
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		display: block;
 		border-radius: 5px;
+		border: 1px solid black;
 	}
 	.fw {
 		height: 33px;
