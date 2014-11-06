@@ -17,13 +17,15 @@ body {
 }
 
 .header {
-	width: 100%;
+	width: calc(100%-6px();
 	display: flex;
 	background-color: #CACACA;
 	height: 100px;
 	border-radius: 5px;
 	margin-bottom: 0px;
 	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: 3px;
 	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 
 }
