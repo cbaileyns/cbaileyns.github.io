@@ -109,8 +109,7 @@ header {
 }
 
 .middle-photo {
-	margin: 0px 3px 0px 3px;
-	width: calc(100%-6px);
+	padding: 0px 3px 0px 3px;
 }
 
 .middle-photo img {
