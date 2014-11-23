@@ -45,7 +45,7 @@ header {
 
 .name {
 	font-size: 50px;
-	font-family: "Libre Baskerville", sans-serif;
+	font-family: 'Libre Baskerville', sans-serif;
 	font-weight: bold;
 	height: 65%;
 	padding: 0px 5px 0px 0px;
@@ -54,7 +54,7 @@ header {
 }
 
 .jtitle {
-	font-family: "Libre Baskerville", sans-serif;
+	font-family: 'Libre Baskerville', sans-serif;
 	font-size: 25px;
 	height: 35%;
 	padding: 0px 5px 0px 0px;
@@ -94,7 +94,7 @@ header {
 	border-radius: 5px;
 	font-size: 20px;
 	font-weight: bold;
-	font-family: "Libre Baskerville", sans-serif;
+	font-family: 'Libre Baskerville', sans-serif;
 	height:10%;
 	padding-top: 3px;
 	text-align: center;
@@ -118,7 +118,7 @@ header {
 }
 
 .project-des {
-	font-family: "Libre Baskerville", sans-serif;
+	font-family: 'Libre Baskerville', sans-serif;
 	height:10%;
 	margin-bottom: 20px;
 	padding: 5px 5px 0px 5px;
@@ -159,7 +159,7 @@ a:active {
 	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 	border-radius: 5px;
 	font-size: 40px;
-	font-family: "Libre Baskerville", sans-serif;
+	font-family: 'Libre Baskerville', sans-serif;
 	height: 60px;
 	margin: 0px 3px 0px 3px;
 	padding: 5px 0px 10px 0px;
