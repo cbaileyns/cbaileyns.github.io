@@ -288,7 +288,7 @@ a {
   width: auto;
   height: auto;
 }
-.skillbox {
+.skill-box {
   display: block;
   width: 100%;
   height: auto;
@@ -296,7 +296,7 @@ a {
   text-align: center;
   padding: 5px 0px 5px 0px;
 }
-.skillbox:nth-child(1) {
+.skill-box:nth-child(1) {
   font-size: 20px;
   display: block;
   width: 100%;
