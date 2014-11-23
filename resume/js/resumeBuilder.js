@@ -462,7 +462,7 @@ var pageLoad = function() {
     $("#skill-chart-svg").hide();
     $("#map-div").hide();
     $("#letsConnect").hide();
-    $(".skillbox").hide();
+    $(".skill-box").hide();
     displaySkills();
 };
 
@@ -481,7 +481,7 @@ $(document).ready(
             $("#skill-chart-svg").hide();
             $("#map-div").hide();
             $("#letsConnect").hide();
-            $(".skillbox").hide();
+            $(".skill-box").hide();
             displaySkills();
         });
     });
@@ -496,7 +496,7 @@ $(document).ready(
             $("#map-div").hide();
             $("#letsConnect").hide();
             $(".welcome-message").hide();
-            $(".skillbox").hide();
+            $(".skill-box").hide();
             displaySkillsSoft();
         });
     });
@@ -511,7 +511,7 @@ $(document).ready(
             $("#skill-chart-svg").hide();
             $("#map-div").hide();
             $("#letsConnect").hide();
-            $(".skillbox").hide();
+            $(".skill-box").hide();
             displaySkillsProjects();
         });
     });
@@ -526,7 +526,7 @@ $(document).ready(
             $("#skill-chart-svg").hide();
             $("#map-div").hide();
             $("#letsConnect").hide();
-            $(".skillbox").hide();
+            $(".skill-box").hide();
             displaySkillsEducation();
         });
     });
@@ -541,7 +541,7 @@ $(document).ready(
             $("#skill-chart-svg").show();
             $("#map-div").hide();
             $("#letsConnect").hide();
-            $(".skillbox").hide();
+            $(".skill-box").hide();
             displaySkillsChart();
         });
     });
@@ -557,7 +557,7 @@ $(document).ready(
             $("#map-div").show();
             initializeMap();
             $("#letsConnect").hide();
-            $(".skillbox").hide();
+            $(".skill-box").hide();
             displaySkills();            
         });
     });
