@@ -11,7 +11,7 @@ var displayMenu = function() {
 	for (section in sections) {
  		var menuItem = document.createElement("div");
 		$("#menu").append(menuItem);
-		$(menuItem).attr("id","menuitem").text(sections[section]).css("width", swidth + "px");
+		$(menuItem).attr("id","menu-item").text(sections[section]).css("width", swidth + "px");
 	}
 };
 
@@ -40,65 +40,65 @@ var educSkills = ["Time Management","Multi-tasking","Goal Prioritization"];
 
 
 /*these next five functions all display skills. For each section of my resume, I wanted different skills to show up. 
-TO do this, I add a div container on the left hand side (skillsholder) and then append each skill div to it. Later on,
+TO do this, I add a div container on the left hand side (skills-holder) and then append each skill div to it. Later on,
 you'll see that each of these functions gets called at different occassions!*/
 
 var displaySkills = function() {
 	/*takes the skills holder div parent and appends it to left. Then each skills in the above arrays gets appended 
 	as its own div to the skills holder div. this allows me to easily remove skills*/
-	$("#skillsholder").prepend(HTMLskillsStart);
+	$("#skills-holder").prepend(HTMLskillsStart);
 	for (var q = 0; q < skills.length; q++) {
 		var sk = HTMLskills.replace("%data%", skills[q]);
-		$("#skillsholder").append(sk);
+		$("#skills-holder").append(sk);
 	}
 	for (var q = 0; q < educSkills.length; q++) {
 		var sk = HTMLskills.replace("%data%", educSkills[q]);
-		$("#skillsholder").append(sk);
+		$("#skills-holder").append(sk);
 	}
 	for (var q = 0; q < softSkills.length; q++) {
 		var sk = HTMLskills.replace("%data%", softSkills[q]);
-		$("#skillsholder").append(sk);
+		$("#skills-holder").append(sk);
 	}
 	for (var q = 0; q < chartSkills.length; q++) {
 		var sk = HTMLskills.replace("%data%", chartSkills[q]);
-		$("#skillsholder").append(sk);
+		$("#skills-holder").append(sk);
 	}
 }
 
 
 var displaySkillsProjects = function() {
 	/*only displays skills relevant to my online project work*/
-	$("#skillsholder").prepend(HTMLskillsStart);
+	$("#skills-holder").prepend(HTMLskillsStart);
 	for (var q = 0; q < skills.length; q++) {
 		var sk = HTMLskills.replace("%data%", skills[q]);
-		$("#skillsholder").append(sk);
+		$("#skills-holder").append(sk);
 	}
 }
 
 var displaySkillsEducation = function() {
 	/*only displays the skills that related to my education*/
-	$("#skillsholder").prepend(HTMLskillsStart);
+	$("#skills-holder").prepend(HTMLskillsStart);
 	for (var q = 0; q < educSkills.length; q++) {
 		var sk = HTMLskills.replace("%data%", educSkills[q]);
-		$("#skillsholder").append(sk);
+		$("#skills-holder").append(sk);
 	}
 }
 
 var displaySkillsSoft = function() {
 	/*only displays career related skills*/
-	$("#skillsholder").prepend(HTMLskillsStart);
+	$("#skills-holder").prepend(HTMLskillsStart);
 	for (var q = 0; q < softSkills.length; q++) {
 		var sk = HTMLskills.replace("%data%", softSkills[q]);
-		$("#skillsholder").append(sk);
+		$("#skills-holder").append(sk);
 	}
 }
 
 var displaySkillsChart = function() {
 	/*displays the skills required to make my skill chart*/
-	$("#skillsholder").prepend(HTMLskillsStart);
+	$("#skills-holder").prepend(HTMLskillsStart);
 	for (var q = 0; q < chartSkills.length; q++) {
 		var sk = HTMLskills.replace("%data%", chartSkills[q]);
-		$("#skillsholder").append(sk);
+		$("#skills-holder").append(sk);
 	}
 }
 	
@@ -130,12 +130,12 @@ contactInfo.display = function() {
 	var welcomemessage = HTMLWelcomeMsg.replace("%data%",contactInfo.welcomemessage)
 	$("#right").append(welcomemessage);
 	$(".welcome-message").hide();
-	$("#topContacts").append(mobile);
-	$("#topContacts").append(email);
-	$("#topContacts").append(github);
-	$("#topContacts").append(kaggle);
-	$("#topContacts").append(linkedin);
-	$("#topContacts").append(loc);
+	$("#top-contacts").append(mobile);
+	$("#top-contacts").append(email);
+	$("#top-contacts").append(github);
+	$("#top-contacts").append(kaggle);
+	$("#top-contacts").append(linkedin);
+	$("#top-contacts").append(loc);
 	$("#header").prepend(formattedRole);
 	$("#header").prepend(formattedName);
 }
@@ -196,7 +196,7 @@ education.display = function() {
 	var i = 0;
 	for (school in education.schools) {
 		i += 1;
-		$("#brickandmortar").append(HTMLschoolStart);
+		$("#brick-and-mortar").append(HTMLschoolStart);
 		var skl = HTMLschoolName.replace("%data%",education.schools[school].name).replace("#",education.schools[school].url);
 		var dgr = HTMLschoolDegree.replace("%data%",education.schools[school].degree);
 		var skldgr = skl.concat(dgr);
@@ -302,7 +302,7 @@ var displayWork = function() {
 	/*this function cycles through the work JSON by type and then by company. all of the details then are appended*/
 	for (type in work) {
 		for (company in work.jobs) {
-			$("#workExperience").append(HTMLworkStart);
+			$("#work-experience").append(HTMLworkStart);
 			var employer = HTMLworkEmployer.replace("%data%",work.jobs[company].name);
 			var title = HTMLworkTitle.replace("%data%", work.jobs[company].title);
 			var both = employer.concat(title);
@@ -360,7 +360,7 @@ projects.display = function() {
 
 projects.display();
 
-$("#mapDiv").append(googleMap);
+$("#map-div").append(googleMap);
 
 /*data defined for my skill chart*/
 var data = [
@@ -379,7 +379,7 @@ var data = [
 InitChart();
 
 function InitChart() {
-  var mW = $("#skillchartsvg").width();	/*width of skillschart area*/
+  var mW = $("#skill-chart-svg").width();	/*width of skillschart area*/
   var vis = d3.select('#visualisation'), 
     WIDTH = mW,
     HEIGHT = 500,
@@ -456,11 +456,11 @@ var pageLoad = function() {
 	/*this sets how my page is displayed upon load. I only want the about me to show and I want all skills to be displayed
 	on the left hand side of the page*/
 	$(".welcome-message").show();
-    $("#workExperience").hide();
+    $("#work-experience").hide();
     $("#projects").hide();
     $("#education").hide();
-    $("#skillchartsvg").hide();
-    $("#mapDiv").hide();
+    $("#skill-chart-svg").hide();
+    $("#map-div").hide();
     $("#letsConnect").hide();
     $(".skillbox").hide();
     displaySkills();
@@ -473,13 +473,13 @@ different divs, a different section will appear and every other section gets hid
 
 $(document).ready(
     function(){
-        $("#menuitem:nth-child(1)").click(function () {
+        $("#menu-item:nth-child(1)").click(function () {
             $(".welcome-message").show();
-            $("#workExperience").hide();
+            $("#work-experience").hide();
             $("#projects").hide();
             $("#education").hide();
-            $("#skillchartsvg").hide();
-            $("#mapDiv").hide();
+            $("#skill-chart-svg").hide();
+            $("#map-div").hide();
             $("#letsConnect").hide();
             $(".skillbox").hide();
             displaySkills();
@@ -488,12 +488,12 @@ $(document).ready(
 
 $(document).ready(
     function(){
-        $("#menuitem:nth-child(2)").click(function () {
-            $("#workExperience").show();
+        $("#menu-item:nth-child(2)").click(function () {
+            $("#work-experience").show();
             $("#projects").hide();
             $("#education").hide();
-            $("#skillchartsvg").hide();
-            $("#mapDiv").hide();
+            $("#skill-chart-svg").hide();
+            $("#map-div").hide();
             $("#letsConnect").hide();
             $(".welcome-message").hide();
             $(".skillbox").hide();
@@ -503,13 +503,13 @@ $(document).ready(
 
 $(document).ready(
     function(){
-        $("#menuitem:nth-child(3)").click(function () {
+        $("#menu-item:nth-child(3)").click(function () {
         	$(".welcome-message").hide();
-            $("#workExperience").hide();
+            $("#work-experience").hide();
             $("#projects").show();
             $("#education").hide();
-            $("#skillchartsvg").hide();
-            $("#mapDiv").hide();
+            $("#skill-chart-svg").hide();
+            $("#map-div").hide();
             $("#letsConnect").hide();
             $(".skillbox").hide();
             displaySkillsProjects();
@@ -518,13 +518,13 @@ $(document).ready(
 
 $(document).ready(
     function(){
-        $("#menuitem:nth-child(4)").click(function () {
+        $("#menu-item:nth-child(4)").click(function () {
             $(".welcome-message").hide();
-            $("#workExperience").hide();
+            $("#work-experience").hide();
             $("#projects").hide();
             $("#education").show();
-            $("#skillchartsvg").hide();
-            $("#mapDiv").hide();
+            $("#skill-chart-svg").hide();
+            $("#map-div").hide();
             $("#letsConnect").hide();
             $(".skillbox").hide();
             displaySkillsEducation();
@@ -533,13 +533,13 @@ $(document).ready(
 
 $(document).ready(
     function(){
-        $("#menuitem:nth-child(5)").click(function () {
+        $("#menu-item:nth-child(5)").click(function () {
         	$(".welcome-message").hide();
-            $("#workExperience").hide();
+            $("#work-experience").hide();
             $("#projects").hide();
             $("#education").hide();
-            $("#skillchartsvg").show();
-            $("#mapDiv").hide();
+            $("#skill-chart-svg").show();
+            $("#map-div").hide();
             $("#letsConnect").hide();
             $(".skillbox").hide();
             displaySkillsChart();
@@ -548,13 +548,13 @@ $(document).ready(
 
 $(document).ready(
     function(){
-        $("#menuitem:nth-child(6)").click(function () {
-            $("#workExperience").hide();
+        $("#menu-item:nth-child(6)").click(function () {
+            $("#work-experience").hide();
             $(".welcome-message").hide();
             $("#projects").hide();
             $("#education").hide();
-            $("#skillchartsvg").hide();
-            $("#mapDiv").show();
+            $("#skill-chart-svg").hide();
+            $("#map-div").show();
             initializeMap();
             $("#letsConnect").hide();
             $(".skillbox").hide();
