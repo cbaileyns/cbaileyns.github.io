@@ -3,7 +3,7 @@
     margin:0;
     font-family: 'Crimson Text', serif;
 }
-#brickandmortar {
+#brick-and-mortar {
   display: flex;
   flex-direction: column;
 }
@@ -11,7 +11,7 @@
   display:flex;
   flex-direction: column;
 }
-#contactbox {
+#contact-box {
   float: right;
   width: 100%;
   border-top: 1px solid;
@@ -23,7 +23,7 @@
   width: 100%;
   height: 40px
 }
-#menuitem {
+#menu-item {
   text-align: center;
   line-height: 40px;
   font-weight: bold;
@@ -52,14 +52,14 @@ rect:hover {
   .bar{
   fill: blue;
 }
-#skillchartsvg {
+#skill-chart-svg {
   background-color: white;
 }
 #visualisation {
   width: 100%;
   height: 500px;
 }
-#mainbody {
+#main-body {
   display: flex;
   box-shadow: 1px 1px 10px 10px black;
   margin: 20px 0px 0px 0px;
@@ -257,7 +257,7 @@ a {
 .orange {
   background-color: #F5AE23;
 }
-#workExp {
+#work-exp {
   background-color: #F3F3F3;
 }
 .orange-text {
@@ -283,7 +283,6 @@ a {
   background-color: #4A4A4A;
 }
 
-/* TODO: Replace with image later */
 #header {
   background-color: white;
   width: auto;
@@ -389,7 +388,7 @@ img {
   margin: 3% 5% 0% 5%;
 }
 
-#mapDiv {
+#map-div {
   height: 500px;
   width: 100%;
   padding-bottom: 5%;
