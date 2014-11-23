@@ -395,3 +395,15 @@ ul {
     display: block;
   }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    #left {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #left {
+        display: none;
+    }
+}
