@@ -1,7 +1,7 @@
 *{
-    padding:0;
-    margin:0;
     font-family: 'Crimson Text', serif;
+    margin:0;
+    padding:0;
 }
 #brick-and-mortar {
   display: flex;
@@ -12,23 +12,22 @@
   flex-direction: column;
 }
 #contact-box {
-  float: right;
-  width: 100%;
   border-top: 1px solid;
   border-bottom: 1px solid;
+  float: right;
+  width: 100%;
 }
 #menu {
-  display: flex;
   border-bottom: 1px solid;
-  width: 100%;
   height: 40px
+  display: flex;
+  width: 100%;
 }
 #menu-item {
-  text-align: center;
-  line-height: 40px;
-  font-weight: bold;
   background-color: white;
-
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
 }
 rect {
   fill: navy;
@@ -56,26 +55,26 @@ rect:hover {
   background-color: white;
 }
 #visualisation {
-  width: 100%;
   height: 500px;
+  width: 100%;
 }
 #main-body {
-  display: flex;
-  box-shadow: 1px 1px 10px 10px black;
-  margin: 20px 0px 0px 0px;
   background-color: white;
+  box-shadow: 1px 1px 10px 10px black;
+  display: flex;
+  margin: 20px 0px 0px 0px;
 }
 .chart {
   display: flex;
   flex-direction: column;
 }
 .chart div {
-  font: 10px sans-serif;
   background-color: red;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
   color: white;
+  font: 10px sans-serif;
+  margin: 1px;
+  padding: 3px;
+  text-align: right;
 }
 .chart rect {
   fill: red;
@@ -88,12 +87,12 @@ rect:hover {
 }
 
 #left {
+  background-color: white;
+  border-right: 1px solid;
   display: flex;
   flex-direction: column;
   float: left;
   width: 211px;
-  background-color: white;
-  border-right: 1px solid;
 }
 #right {
   display: inline;
@@ -117,78 +116,78 @@ rect:hover {
   padding-bottom: 5px;
 }
 .work-entry:nth-child(3) {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 .work-entry:nth-child(5) {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 body {
-  background-color: #CCD6CC;
+  background-color: #ccd6cc;
 }
 .icon {
-  padding: 0px 3px 0px 0px;
   height: 16px;
+  padding: 0px 3px 0px 0px;
   width: 16px;
 }
 
 #divisor {
-  display: flex;
-  width: calc(80% - 10px);
-  height: 2px;
-  color: black;
   background-color: black;
   border-radius: 5px;
+  color: black;
+  display: flex;
+  height: 2px;
   margin: 2px 0px 2px 0px;
+  width: calc(80% - 10px);
 }
 #pic-holder {
   display: flex;
-  width: 200px;
-  height: auto;
   float: left;
+  height: auto;
   margin: 0px 0px 0px 0px;
   padding: 5px;
+  width: 200px;
 }
 
 #main {
-  width: 100%;
   max-width: 1024px;
   margin: 0 auto;
+  width: 100%;
 }
 
 #name {
-  display: flex;
-  font-size: 50px;
   color: black;
-  width: calc(75% - 10px);
-  height: auto;
+  display: flex;
   float: left;
+  font-size: 50px;
+  height: auto;
   line-height: 70px;
   padding: 0px 0px 0px 10px;
+  width: calc(75% - 10px);
 }
 
 h2 {
+  color: #999999;
   font-style: bold;
   font-size: 24px;
-  color: #999999;
   line-height: 29px;
   padding: 10px;
 }
 
 h3 {
+  background-color: #fafafa;
+  color: #000000;
   font-style: italic;
   font-size: 20px;
-  color: #000000;
   line-height: 22px;
   padding: 5px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #fafafa;
 }
 
 h4 {
+  color: #4A4A4A;
   font-style: bold;
   font-size: 14px;
-  color: #4A4A4A;
   line-height: 17px;
 }
 
@@ -200,53 +199,52 @@ h2, h4, h5 {
 
 
 .date-text {
+  color: #999999;
+  float: left;
   font-style: italic;
   font-size: 14px;
-  color: #999999;
   line-height: 16px;
-  float: left;
 }
 
 .location-text {
+  color: #999999;
+  float: right;
   font-style: italic;
   font-size: 14px;
-  color: #999999;
   line-height: 16px;
-  float: right;
-
 }
 
 p {
-  font-size: 14px;
   color: #333333;
+  font-size: 14px;
   line-height: 21px;
 }
 
 a {
   color: black;
-  text-decoration: none;
-  margin-top: 0 px;
   display: inherit;
+  margin-top: 0px;
+  text-decoration: none;
 }
 
 .welcome-message {
+  background-color: white;
   display: flex;
-  line-height: 25px;
-  width: auto;
   float: inherit;
+  height: 400px;
+  line-height: 25px;
   padding: 10px;
   text-align: justify;
-  background-color: white;
-  height: 400px;
+  width: auto;
 }
 
 #skillsH3 {
   color: black;
   display: block;
-  text-align: center;
-  width: 100%;
   float: left;
   padding: 0px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
 }
 
 #skills {
@@ -265,8 +263,8 @@ a {
   font-weight: bold;
   float: left;
   height: 16px;
-  width: auto;
   padding: 2px 0px 0px 0px;
+  width: auto;
 }
 
 .white-text {
@@ -285,23 +283,23 @@ a {
 
 #header {
   background-color: white;
-  width: auto;
   height: auto;
+  width: auto;
 }
 .skill-box {
   display: block;
-  width: 100%;
   height: auto;
   line-height: 20px;
-  text-align: center;
   padding: 5px 0px 5px 0px;
+  text-align: center;
+  width: 100%;
 }
 .skill-box:nth-child(1) {
-  font-size: 20px;
   display: block;
-  width: 100%;
+  font-size: 20px;
   font-weight: bold;
   line-height: 20px;
+  width: 100%;
 }
 .flex-box {
   display: -webkit-flex;
@@ -324,20 +322,16 @@ ul {
 }
 
 .biopic {
-  float: left;
-  width: 200px;
   display: block;
   border-radius: 1000px
+  float: left;
+  width: 200px;
 }
-
-img {
-}
-
 
 /* Bar chart stuff */
 .chart div {
+  background-color: #4A4A4A; 
   font: 10px sans-serif;
-  background-color: #4A4A4A;
   text-align: right;
   padding: 3px;
   margin: 1px;
@@ -390,8 +384,8 @@ img {
 
 #map-div {
   height: 500px;
-  width: 100%;
   padding-bottom: 5%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 750px) {
