@@ -16,7 +16,7 @@ body {
 	margin: 0 auto;
 }
 
-.header {
+header {
 	width: calc(100%-6px);
 	display: flex;
 	background-color: #CACACA;
@@ -238,7 +238,7 @@ a:active {
 		height: 40px;
 		font-size: 25px
 	}
-	.header {
+	header {
 		height: 60px;
 	}
 	.headerpicbox {
@@ -315,7 +315,7 @@ a:active {
 		font-size: 20px;
 		padding-top: 2px;
 	}
-	.header {
+	header {
 		height: 60px;
 	}
 	.headerpicbox {
