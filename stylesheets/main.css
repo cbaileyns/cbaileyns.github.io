@@ -19,7 +19,7 @@ body {
 header {
 	width: calc(100%-6px);
 	display: flex;
-	background-color: #CACACA;
+	background-color: #cacaca;
 	height: 100px;
 	border-radius: 5px;
 	margin-bottom: 0px;
