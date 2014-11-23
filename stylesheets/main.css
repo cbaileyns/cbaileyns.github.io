@@ -21,10 +21,7 @@ header {
 	background-color: #cacaca;
 	height: 100px;
 	border-radius: 5px;
-	margin-bottom: 0px;
-	margin-top: 5px;
-	margin-left: 3px;
-	margin-right: 3px;
+	margin: 5px 3px 0px 3px;
 	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 }
 .headerpicbox {
@@ -32,7 +29,7 @@ header {
 	float: left;
 	height: 100%;
 	text-align: center;
-	padding-top: 24px;
+	padding: 24px 0px 0px 0px;
 }
 .headertextbox {
 	width: 90%;
@@ -58,10 +55,7 @@ header {
 }
 .middlephoto {
 	width: calc(100%-6px);
-	margin-bottom: 0px;
-	margin-top: 0px;
-	margin-left: 3px;
-	margin-right: 3px;
+	margin: 0px 3px 0px 3px;
 }
 .middlephoto img {
 	width: auto;
@@ -136,10 +130,7 @@ a:active {
 	width: calc(100%-6px);
 	height: 5px;
 	background-color: black;
-	margin-bottom: 5px;
-	margin-top: 5px;
-	margin-left: 3px;
-	margin-right: 3px;
+	margin: 5px 3px 5px 3px;
 	border-radius: 5px;
 }
 .fw {
@@ -147,12 +138,10 @@ a:active {
 	height: 60px;
 	font-size: 40px;
 	font-family: "Libre Baskerville", sans-serif;
-	padding-top: 5px;
+	padding: 5px 0px 10px 0px;
+	margin: 0px 3px 0px 3px;
 	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 	border-radius: 5px;
-	padding-left: 10px;
-	margin-left: 3px;
-	margin-right: 3px;
 }
 .minidiv {
 	width: 100%;
@@ -160,8 +149,7 @@ a:active {
 	height: 2px;
 	background-color: black;
 	border-radius: 5px;
-	margin-bottom: 5px;
-	margin-top: 5px;
+	margin: 5px 0px 5px 0px;
 }
 .projectdeetsL {
 	display: none;
@@ -189,8 +177,7 @@ a:active {
 		height: 300px;
 		display: flex;
 		flex-direction: column;
-		margin-left: 3px;
-		margin-right: 3px;
+		margin: 0px 3px 0px 3px;
 	}
 	.projectphoto {
 		float: left;
@@ -198,8 +185,7 @@ a:active {
 		max-width: 132px;
 		height: 100%;
 		width: 30%;
-		padding-left: 2px;
-		padding-top: 2px;
+		padding: 0px 2px 0px 2px;
 	}
 	.projectphoto img {
 		height: 86px;
@@ -210,8 +196,7 @@ a:active {
 		height: 50%;
 		width: 70%;
 		text-align: left;
-		padding-left: 5px;
-		padding-top: 10px;
+		padding: 10px 0px 0px 5px;
 		background-image: none;
 	}
 	.projectdes {
@@ -219,7 +204,7 @@ a:active {
 		height: 50%;
 		width: 70%;
 		text-align: left;
-		padding-top: 5px;
+		padding: 5px 0px 0px 0px;
 	}
 	.project {
 		height: 33%;
@@ -261,16 +246,14 @@ a:active {
 		width: calc(100%-6px);
 		height: 300px;
 		display: inline-block;
-		margin-left: 3px;
-		margin-right: 3px;
+		margin: 0px 3px 0px 3px;
 	}
 	.projectphoto {
 		float: left;
 		height: 96px;
 		max-width: 132px;
 		width: 30%;
-		padding-left: 2px;
-		padding-top: 2px;
+		padding: 2px 0px 0px 2px;
 	}
 	.projectphoto img {
 		height: 100%;
@@ -282,8 +265,7 @@ a:active {
 		height: 50%;
 		width: 70%;
 		text-align: left;
-		padding-left: 5px;
-		padding-top: 5px;
+		padding: 5px 0px 0px 5px;
 		background-image: none;
 	}
 	.projectdes {
@@ -291,7 +273,7 @@ a:active {
 		height: 50%;
 		width: 70%;
 		text-align: left;
-		padding-top: 5px;
+		padding: 2px 0px 0px 0px;
 	}
 	.project {
 		height: 33%;
@@ -304,7 +286,7 @@ a:active {
 	.fw {
 		height: 33px;
 		font-size: 20px;
-		padding-top: 2px;
+		padding: 2px 0px 0px 0px;
 	}
 	header {
 		height: 60px;
