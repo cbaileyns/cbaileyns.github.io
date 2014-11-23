@@ -82,13 +82,11 @@ header {
 	height: 100%;
 	padding: 24px 0px 0px 0px;
 	text-align: center;
-	width: 10%;
 }
 
 .header-text-box {
 	float: right;
 	height: 100%;
-	width: 90%;
 }
 
 .name {
