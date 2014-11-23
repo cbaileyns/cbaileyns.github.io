@@ -28,7 +28,55 @@ header {
 	margin: 5px 3px 0px 3px;
 	width: calc(100%-6px);
 }
+/*GRID*/
+#row {
+	width: 100%;
+}
 
+#col-1 {
+	width: 100%;
+}
+
+#col-12 {
+	width: 50%;
+}
+
+#col-13 {
+	width: 33.33%;
+}
+
+#col-14 {
+	width: 25%%;
+}
+
+#col-34 {
+	width: 75%;
+}
+
+#col-112 {
+	width: 8.33%;
+}
+
+#col-16 {
+	width: 16.66%;
+}
+
+#col-512 {
+	width: 41.66%%;
+}
+
+#col-712 {
+	width: 58.33%;
+}
+
+#col-1012 {
+	width: 83.33%;
+}
+
+#col-1112 {
+	width: 91.66%;
+}
+/*END GRID*/
 .header-pic-box {
 	float: left;
 	height: 100%;
