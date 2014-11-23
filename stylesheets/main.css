@@ -3,153 +3,152 @@
 	max-width: 100%;
 }
 * {
-	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 h1 {
 	color: red;
 }
 body {
-	width: 1024px;
 	margin: 0 auto;
+	width: 1024px;
 }
 header {
-	width: calc(100%-6px);
-	display: flex;
 	background-color: #cacaca;
-	height: 100px;
-	border-radius: 5px;
-	margin: 5px 3px 0px 3px;
 	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+	border-radius: 5px;
+	display: flex;
+	height: 100px;
+	margin: 5px 3px 0px 3px;
+	width: calc(100%-6px);
 }
 .header-pic-box {
-	width: 10%;
 	float: left;
 	height: 100%;
-	text-align: center;
 	padding: 24px 0px 0px 0px;
+	text-align: center;
+	width: 10%;
 }
 .header-text-box {
-	width: 90%;
-	height: 100%;
 	float: right;
+	height: 100%;
+	width: 90%;
 }
 .name {
-	height: 65%;
-	width: 100%;
-	text-align: right;
 	font-size: 50px;
 	font-family: "Libre Baskerville", sans-serif;
 	font-weight: bold;
+	height: 65%;
 	padding: 0px 5px 0px 0px;
+	text-align: right;
+	width: 100%;
 }
 .jtitle {
-	width: 100%;
-	height: 35%;
-	text-align: right;
 	font-family: "Libre Baskerville", sans-serif;
 	font-size: 25px;
+	height: 35%;
 	padding: 0px 5px 0px 0px;
+	text-align: right;
+	width: 100%;
 }
 .middle-photo {
-	width: calc(100%-6px);
 	margin: 0px 3px 0px 3px;
+	width: calc(100%-6px);
 }
 .middle-photo img {
-	width: auto;
+	border-radius: 5px;
 	height: auto;
 	max-width: 100%;
 	max-height: 100%;
-	border-radius: 5px;
+	width: auto;
 }
 .project-detail {
-	width: 100%;
-	height: 30%;
 	display: inline-block;
+	height: 30%;
 	max-height: 300px;
+	width: 100%;
 }
 .project {
-	width: calc(33.33% - 6px);
+	float: left;
 	height: 100%;
 	margin: 0px 3px 0px 3px;
-	float: left;
+	width: calc(33.33% - 6px);
 }
 .project-title {
-	width:100%;
-	height:10%;
-	text-align: center;
+	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+	border-radius: 5px;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: "Libre Baskerville", sans-serif;
+	height:10%;
 	padding-top: 3px;
-	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
-	border-radius: 5px;
+	text-align: center;
+	width:100%;
 }
 .project-photo {
-	width: 100%;
+	cursor: pointer;
 	height: 75%;
 	text-align: center;
-	cursor: pointer;
+	width: 100%;
 }
 .project-photo img {
-	width: auto;
+	border-radius: 5px;
+	cursor: pointer;
 	height: auto;
 	max-width: 100%;
 	max-height: 100%;
-	border-radius: 5px;
-	cursor: pointer;
+	width: auto;
 }
 .project-des {
-	width: 100%;
-	height:10%;
-	text-align: center;
-	padding: 5px 5px 0px 5px;
 	font-family: "Libre Baskerville", sans-serif;
+	height:10%;
 	margin-bottom: 20px;
+	padding: 5px 5px 0px 5px;
+	text-align: center;
+	width: 100%;
 }
 a:link {
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 a:visited {
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 a:hover {
-	text-decoration: none;
-	font-weight: bold;
 	color: black;
+	font-weight: bold;
+	text-decoration: none;
 }
 a:active {
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 .divide {
-	width: calc(100%-6px);
-	height: 5px;
 	background-color: black;
-	margin: 5px 3px 5px 3px;
 	border-radius: 5px;
+	height: 5px;
+	margin: 5px 3px 5px 3px;
+	width: calc(100%-6px);
 }
 .featured-work {
-	width: calc(100%-6px);
-	height: 60px;
-	font-size: 40px;
-	font-family: "Libre Baskerville", sans-serif;
-	padding: 5px 0px 10px 0px;
-	margin: 0px 3px 0px 3px;
 	background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 	border-radius: 5px;
+	font-size: 40px;
+	font-family: "Libre Baskerville", sans-serif;
+	height: 60px;
+	margin: 0px 3px 0px 3px;
+	padding: 5px 0px 10px 0px;
+	width: calc(100%-6px);
 }
 .mini-divide {
-	width: 100%;
-	margin: 0 auto;
-	height: 2px;
 	background-color: black;
 	border-radius: 5px;
+	height: 2px;
 	margin: 5px 0px 5px 0px;
+	width: 100%;
 }
 .project-detail-alt {
 	display: none;
@@ -173,48 +172,48 @@ a:active {
 		display: none;
 	}
 	.project-detail-alt {
-		width: calc(100%-6px);
-		height: 300px;
 		display: flex;
 		flex-direction: column;
+		height: 300px;
 		margin: 0px 3px 0px 3px;
+		width: calc(100%-6px);
 	}
 	.project-photo {
 		float: left;
+		height: 100%;
 		max-height: 90px;
 		max-width: 132px;
-		height: 100%;
-		width: 30%;
 		padding: 0px 2px 0px 2px;
+		width: 30%;
 	}
 	.project-photo img {
-		height: 86px;
 		float: left;
+		height: 86px;
 	}
 	.project-title {
+		background-image: none;
 		float: left;
 		height: 50%;
-		width: 70%;
-		text-align: left;
 		padding: 10px 0px 0px 5px;
-		background-image: none;
+		text-align: left;
+		width: 70%;
 	}
 	.project-des {
 		float: left;
 		height: 50%;
-		width: 70%;
-		text-align: left;
 		padding: 5px 0px 0px 0px;
+		text-align: left;
+		width: 70%;
 	}
 	.project {
-		height: 33%;
-		width: 100%;
-		margin: 5px 5px 5px 5px;
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
+		height: 33%;
+		margin: 5px 5px 5px 5px;
+		width: 100%;
 	}
 	.featured-work {
-		height: 40px;
 		font-size: 25px
+		height: 40px;
 	}
 	header {
 		height: 60px;
@@ -243,49 +242,49 @@ a:active {
 		display: none;
 	}
 	.project-detail-alt {
-		width: calc(100%-6px);
-		height: 300px;
 		display: inline-block;
 		margin: 0px 3px 0px 3px;
+		height: 300px;
+		width: calc(100%-6px);
 	}
 	.project-photo {
 		float: left;
 		height: 96px;
 		max-width: 132px;
-		width: 30%;
 		padding: 2px 0px 0px 2px;
+		width: 30%;
 	}
 	.project-photo img {
-		height: 100%;
 		float: left;
+		height: 100%;
 	}
 	.project-title {
+		background-image: none;
 		float: left;
 		font-size: 20px;
 		height: 50%;
-		width: 70%;
-		text-align: left;
 		padding: 5px 0px 0px 5px;
-		background-image: none;
+		text-align: left;
+		width: 70%;
 	}
 	.project-des {
 		float: left;
 		height: 50%;
-		width: 70%;
-		text-align: left;
 		padding: 2px 0px 0px 0px;
+		text-align: left;
+		width: 70%;
 	}
 	.project {
-		height: 33%;
-		width: 100%;
-		margin: 0px 0px 2px 0px;
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
-		display: block;
 		border-radius: 5px;
+		display: block;
+		height: 33%;
+		margin: 0px 0px 2px 0px;
+		width: 100%;
 	}
 	.featured-work {
-		height: 33px;
 		font-size: 20px;
+		height: 33px;
 		padding: 2px 0px 0px 0px;
 	}
 	header {
