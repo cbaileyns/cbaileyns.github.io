@@ -519,7 +519,7 @@ $(document).ready(
 $(document).ready(
     function(){
         $("#menuitem:nth-child(4)").click(function () {
-        	$(".welcome-message").hide();
+            $(".welcome-message").hide();
             $("#workExperience").hide();
             $("#projects").hide();
             $("#education").show();
@@ -555,6 +555,7 @@ $(document).ready(
             $("#education").hide();
             $("#skillchartsvg").hide();
             $("#mapDiv").show();
+            initializeMap();
             $("#letsConnect").hide();
             $(".skillbox").hide();
             displaySkills();            
