@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
 }
-#flex-item {
+.flex-item {
     padding: 0px 5px 0px 5px;
     width: auto;
 }
