@@ -406,6 +406,9 @@ ul {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    .orange-text img {
+        display: none;
+    }
     #name {
         font-size: 20px;
         line-height: 30px;
@@ -425,13 +428,16 @@ ul {
     }
     #menu {
         display: inline-block;
+        height: auto;
     }
     #menu-item {
         float: left;
+        font-size: 8px;
     }
     .flex-item {
     padding: 0px;
     width: auto;
+    font-size: 8px;
     }
 }
 
