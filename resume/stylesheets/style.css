@@ -3,6 +3,9 @@
     margin:0;
     padding:0;
 }
+#header-container {
+    width: 100%;
+}
 #brick-and-mortar {
   display: flex;
   flex-direction: column;
