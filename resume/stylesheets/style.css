@@ -405,16 +405,10 @@ ul {
     #left {
         display: none;
     }
-    #menu {
-        display: inline-block;
-    }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     #left {
         display: none;
-    }
-    #menu {
-        display: inline-block;
     }
 }
