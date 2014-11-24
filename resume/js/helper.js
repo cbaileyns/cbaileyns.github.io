@@ -2,13 +2,13 @@
 var HTMLheaderName = "<div id='name'>%data%</div>";
 var HTMLheaderRole = "<div id='role'>%data%</span></div>";
 
-var HTMLcontactGeneric = "<li class='flex-item'><div class='orange-text'>%contact%</div><div class='white-text'>%data%</div></li>";
-var HTMLmobile = "<li class='flex-item'><div class='white-text'>%data%</div></li>";
-var HTMLemail = "<li class='flex-item'><div class='white-text'>%data%</div></li>";
-var HTMLkaggle = "<li class='flex-item'><div class='orange-text'><img class='icon' src='https://www.kaggle.com/content/v/4e3f994e938b/kaggle/favicon.ico'/></div><div class='white-text'>%data%</div></li>";
-var HTMLgithub = "<li class='flex-item'><div class='orange-text'><img class='icon' src='https://raw.githubusercontent.com/github/media/master/octocats/blacktocat-16.png'/></div><div class='white-text'>%data%</div></li>";
-var HTMLlinkedin = "<li class='flex-item'><div class='orange-text'><img class='icon' src='http://www.cmsmadesimple.org/uploads/new/linkedin.png'/></div><div class='white-text'>%data%</div></li>";
-var HTMLlocation = "<li class='flex-item'><div class='orange-text'><img class='icon' src='http://www.telecomcomputer.com/en/images/sm-can-flag.png'/></div><div class='white-text'>%data%</div></li>";
+var HTMLcontactGeneric = "<div class='flex-item'><div class='orange-text'>%contact%</div><div class='white-text'>%data%</div></div>";
+var HTMLmobile = "<div class='flex-item'><div class='white-text'>%data%</div></div>";
+var HTMLemail = "<div class='flex-item'><div class='white-text'>%data%</div></div>";
+var HTMLkaggle = "<div class='flex-item'><div class='orange-text'><img class='icon' src='https://www.kaggle.com/content/v/4e3f994e938b/kaggle/favicon.ico'/></div><div class='white-text'>%data%</div></div>";
+var HTMLgithub = "<div class='flex-item'><div class='orange-text'><img class='icon' src='https://raw.githubusercontent.com/github/media/master/octocats/blacktocat-16.png'/></div><div class='white-text'>%data%</div></div>";
+var HTMLlinkedin = "<div class='flex-item'><div class='orange-text'><img class='icon' src='http://www.cmsmadesimple.org/uploads/new/linkedin.png'/></div><div class='white-text'>%data%</div></div>";
+var HTMLlocation = "<div class='flex-item'><div class='orange-text'><img class='icon' src='http://www.telecomcomputer.com/en/images/sm-can-flag.png'/></div><div class='white-text'>%data%</div></div>";
 
 var HTMLbioPic = "<img src='%data%' class='biopic'>";
 var HTMLWelcomeMsg = "<div class='welcome-message'>%data%</div>";
