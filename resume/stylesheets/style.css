@@ -428,7 +428,10 @@ ul {
     }
     #menu {
         display: inline-block;
-        height: auto;
+        height: 10px;
+    }
+    #contact-box {
+        height: 10px;
     }
     #menu-item {
         float: left;
