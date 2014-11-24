@@ -286,6 +286,8 @@ a {
 
 #header {
   background-color: white;
+  display: flex;
+  flex-direction: column;
   height: auto;
   width: auto;
 }
