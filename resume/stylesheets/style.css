@@ -5,6 +5,7 @@
 }
 #flex-item {
     padding: 0px 5px 0px 5px;
+    width: auto;
 }
 #header-container {
     width: 100%;
