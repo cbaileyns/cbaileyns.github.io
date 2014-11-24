@@ -136,8 +136,8 @@ contactInfo.display = function() {
 	$("#top-contacts").append(kaggle);
 	$("#top-contacts").append(linkedin);
 	$("#top-contacts").append(loc);
-	$("#header").prepend(formattedRole);
-	$("#header").prepend(formattedName);
+	$("#header-container").prepend(formattedRole);
+	$("#header-container").prepend(formattedName);
 }
 
 contactInfo.display();
