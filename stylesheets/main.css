@@ -287,7 +287,7 @@ a:active {
 	.featured-work {
 		font-size: 25px
 		height: 40px;
-		padding: 0px 5px 0px 0px;
+		padding: 0px 0px 0px 5px;
 	}
 	
 	header {
@@ -378,7 +378,7 @@ a:active {
 	.featured-work {
 		font-size: 20px;
 		height: 33px;
-		padding: 2px 5px 0px 0px;
+		padding: 2px 0px 0px 5px;
 	}
 	
 	header {
