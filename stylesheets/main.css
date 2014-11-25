@@ -223,10 +223,6 @@ a:active {
 		width: 100%;
 	}
 	
-	.project {
-		width: calc(33.33% - 6px);
-	}
-	
 	.project-detail-alt {
 		display: none;
 	}
