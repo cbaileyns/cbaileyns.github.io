@@ -120,7 +120,7 @@ header {
 }
 
 .project-detail {
-	display: inline-block;
+	display: flex;
 	height: 30%;
 	max-height: 300px;
 	width: 100%;
