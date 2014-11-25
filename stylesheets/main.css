@@ -252,7 +252,7 @@ a:active {
 		height: 100%;
 		max-height: 90px;
 		max-width: 132px;
-		padding: 0px 2px 0px 2px;
+		padding: 5px 0px 0px 0px;
 		width: 30%;
 	}
 	
@@ -338,7 +338,7 @@ a:active {
 		float: left;
 		height: 96px;
 		max-width: 132px;
-		padding: 2px 0px 0px 2px;
+		padding: 5px 0px 0px 0px;
 	}
 	
 	.project-photo img {
