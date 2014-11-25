@@ -26,7 +26,6 @@ header {
 	display: flex;
 	height: 100px;
 	padding: 5px 3px 0px 3px;
-	width: calc(100%-6px);
 }
 /*GRID*/
 #row {
