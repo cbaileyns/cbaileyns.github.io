@@ -1,4 +1,3 @@
-
 var HTMLheaderName = "<div id='name'>%data%</div>";
 var HTMLheaderRole = "<div id='role'>%data%</span></div>";
 
