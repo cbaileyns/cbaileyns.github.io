@@ -318,11 +318,11 @@ a:active {
 		width: 100%;
 	}
 	
-	.name {
+	#name {
 		font-size: 30px;
 	}
 	
-	.jtitle {
+	#jtitle {
 		font-size: 15px;
 	}
 }
@@ -392,7 +392,7 @@ a:active {
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		border-radius: 5px;
 		display: inline-block;
-		height: 33%;
+		height: 105%;
 		margin: 0px 0px 2px 0px;
 		width: 100%;
 	}
