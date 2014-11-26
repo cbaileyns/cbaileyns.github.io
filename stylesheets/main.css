@@ -332,7 +332,7 @@ a:active {
 	}
 	
 	#project-detail-alt {
-		display: flex;
+		display: inline-block;
 		height: 300px;
 		padding: 0px 3px 0px 3px;
 	}
