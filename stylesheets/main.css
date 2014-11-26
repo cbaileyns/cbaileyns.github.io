@@ -130,12 +130,12 @@ header {
 	width: 100%;
 }
 
-.project1,
-.project2,
-.project3,
-.project12,
-.project22,
-.project32 {
+#project1,
+#project2,
+#project3,
+#project12,
+#project22,
+#project32 {
 	float: left;
 	height: 100%;
 	padding: 0px 3px 0px 3px;
@@ -284,12 +284,12 @@ a:active {
 		width: 70%;
 	}
 	
-	.project1,
-	.project2,
-	.project3,
-	.project12,
-	.project22,
-	.project32 {
+	#project1,
+	#project2,
+	#project3,
+	#project12,
+	#project22,
+	#project32 {
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		height: 33%;
 		width: 100%;
@@ -383,12 +383,12 @@ a:active {
 		width: 100%;
 	}
 	
-	.project1,
-	.project2,
-	.project3,
-	.project12,
-	.project22,
-	.project32 {
+	#project1,
+	#project2,
+	#project3,
+	#project12,
+	#project22,
+	#project32 {
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		border-radius: 5px;
 		display: flex;
