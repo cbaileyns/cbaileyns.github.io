@@ -324,11 +324,11 @@ a:active {
 	}
 	
 	.mini-divide {
-		display: none;
+		display: flex;
 	}
 	
 	.project-detail {
-		display: inline-block;
+		display: none;
 	}
 	
 	#project-detail-alt {
@@ -345,6 +345,8 @@ a:active {
 		float: left;
 		height: 96px;
 		padding: 5px 0px 0px 0px;
+		max-width: 100%;
+		max-height: 100%;
 		width: auto;
 	}
 	
@@ -359,8 +361,8 @@ a:active {
 		font-size: 20px;
 		height: 50%;
 		padding: 5px 0px 0px 5px;
-		text-align: left;
-		width: 70%;
+		text-align: center;
+		width: 100%;
 	}
 	
 	.project-des {
