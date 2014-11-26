@@ -324,7 +324,7 @@ a:active {
 	}
 	
 	.mini-divide {
-		display: flex;
+		display: inline-block;
 	}
 	
 	.project-detail {
@@ -370,7 +370,7 @@ a:active {
 		height: 50%;
 		margin: 0px;
 		padding: 5px 0px 0px 5px;
-		text-align: left;
+		text-align: center;
 		width: 70%;
 	}
 	
