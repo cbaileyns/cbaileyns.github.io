@@ -340,8 +340,8 @@ a:active {
 	.project-photo {
 		float: left;
 		height: 96px;
-		max-width: 132px;
 		padding: 5px 0px 0px 0px;
+		width: auto;
 	}
 	
 	.project-photo img {
@@ -371,7 +371,7 @@ a:active {
 	.project {
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		border-radius: 5px;
-		display: block;
+		display: flex;
 		height: 33%;
 		margin: 0px 0px 2px 0px;
 		width: 100%;
