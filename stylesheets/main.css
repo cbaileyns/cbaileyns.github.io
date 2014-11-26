@@ -391,7 +391,7 @@ a:active {
 	#project32 {
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		border-radius: 5px;
-		display: flex;
+		display: inline-block;
 		height: 33%;
 		margin: 0px 0px 2px 0px;
 		width: 100%;
