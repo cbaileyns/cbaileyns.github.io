@@ -328,7 +328,7 @@ a:active {
 	}
 	
 	.project-detail {
-		display: none;
+		display: flex;
 	}
 	
 	#project-detail-alt {
