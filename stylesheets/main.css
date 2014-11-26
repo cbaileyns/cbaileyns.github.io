@@ -333,7 +333,11 @@ a:active {
 	
 	#project-detail-alt {
 		display: inline-block;
-		height: 300px;
+		padding: 0px 3px 0px 3px;
+	}
+	
+	.project-detail-alt {
+		display: inline-block;
 		padding: 0px 3px 0px 3px;
 	}
 	
