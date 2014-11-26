@@ -438,7 +438,7 @@ ul {
         font-size: 8px;
     }
     .flex-item {
-    padding: 0px;
+    padding: 0px 16px;
     width: auto;
     font-size: 8px;
     }
