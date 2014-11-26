@@ -427,7 +427,7 @@ ul {
         width: 100%;
     }
     #menu {
-        display: inline-flex;
+        display: flex;
         height: 10px;
     }
     #contact-box {
