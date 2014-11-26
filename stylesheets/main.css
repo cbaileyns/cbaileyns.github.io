@@ -337,6 +337,10 @@ a:active {
 		padding: 0px 3px 0px 3px;
 	}
 	
+	#project-detail-alt #row {
+		diplay: flex;
+	}
+	
 	.project-photo {
 		float: left;
 		height: 96px;
