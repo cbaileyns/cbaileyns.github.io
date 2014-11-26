@@ -453,6 +453,12 @@ ul {
     li {
         font-size: 10px;
     }
+    .date-text {
+        font-size: 10px;
+    }
+    .location-text {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
