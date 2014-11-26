@@ -328,7 +328,7 @@ a:active {
 	}
 	
 	.project-detail {
-		display: flex;
+		display: inline-block;
 	}
 	
 	#project-detail-alt {
