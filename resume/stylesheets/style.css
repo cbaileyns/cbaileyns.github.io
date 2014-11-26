@@ -462,6 +462,9 @@ ul {
     a {
         font-size: 14px;
     }
+    .flex-item a {
+        font-size: 8px;
+    }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
