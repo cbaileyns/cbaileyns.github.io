@@ -311,11 +311,11 @@ a:active {
 		width: 100%;
 	}
 	
-	.header-pic-box {
+	#header-pic-box {
 		display: none;
 	}
 	
-	.header-text-box {
+	#header-text-box {
 		width: 100%;
 	}
 	
