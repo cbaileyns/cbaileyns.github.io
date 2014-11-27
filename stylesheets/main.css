@@ -271,17 +271,18 @@ a:active {
 		float: left;
 		height: 50%;
 		padding: 10px 0px 0px 5px;
-		text-align: left;
-		width: 70%;
+		text-align: center;
+		width: 100%;
 	}
 	
 	.project-des {
 		background-image: url(http://www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
 		float: left;
 		height: 50%;
+		margin: 0;
 		padding: 5px 0px 0px 5px;
-		text-align: left;
-		width: 70%;
+		text-align: center;
+		width: 100%;
 	}
 	
 	#project1,
