@@ -228,54 +228,54 @@ a:active {
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	#project-detail {
+  #project-detail {
     width: 100%;
-	}
+  }
 	
-	#project-detail-alt {
+  #project-detail-alt {
     display: none;
-	}
+  }
 }
 @media only screen and (max-width: 767px) {
-	.mini-divide {
+  .mini-divide {
     display: flex;
     margin: 2px 0px 2px 0px;
-	}
+  }
 	
-	#project-detail {
+  #project-detail {
     display: none;
-	}
+  }
 	
-	#project-detail-alt {
+  #project-detail-alt {
     display: flex;
     flex-direction: column;
     padding: 0px 3px 0px 3px;
-	}
+  }
 	
-	.project-photo {
+  .project-photo {
     float: left;
     height: 100%;
     max-height: 90px;
     max-width: 132px;
     padding: 5px 0px 0px 0px;
     width: 30%;
-	}
+  }
 	
-	.project-photo img {
+  .project-photo img {
     float: left;
     height: 86px;
-	}
+  }
 	
-	.project-title {
+  .project-title {
     background-image: url(//www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
     float: left;
     height: 50%;
     padding: 10px 0px 0px 5px;
     text-align: center;
     width: 100%;
-	}
+  }
 	
-	.project-des {
+  .project-des {
     background-image: url(//www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
     float: left;
     height: 50%;
@@ -283,89 +283,89 @@ a:active {
     padding: 5px 0px 0px 5px;
     text-align: center;
     width: 100%;
-	}
+  }
 	
-	#project1,
-	#project2,
-	#project3,
-	#project12,
-	#project22,
-	#project32 {
+  #project1,
+  #project2,
+  #project3,
+  #project12,
+  #project22,
+  #project32 {
     height: 33%;
     width: 100%;
-	}
+  }
 	
-	#featured-work {
+  #featured-work {
     font-size: 25px;
     height: 40px;
     padding: 5px 0px 0px 5px;
     text-align: center;
-	}
+  }
 	
-	header {
+  header {
     height: 60px;
-	}
+  }
 	
-	header #col-1112 {
-		/*this breaks the grid structure, but i didn't want to use javascript to change the id tag so i must adjust the width this way */
+  header #col-1112 {
+    /*this breaks the grid structure, but i didn't want to use javascript to change the id tag so i must adjust the width this way */
     width: 100%;
-	}
+  }
 	
-	#header-pic-box {
+  #header-pic-box {
     display: none;
-	}
+  }
 	
-	#header-text-box {
+  #header-text-box {
     width: 100%;
-	}
+  }
 	
-	#name {
+  #name {
     font-size: 30px;
-	}
+  }
 	
-	#jtitle {
+  #jtitle {
     font-size: 15px;
-	}
+  }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
-	.name {
+  .name {
     font-size: 40px;
-	}
+  }
 	
-	.mini-divide {
+  .mini-divide {
     display: inline-block;
-	}
+  }
 	
-	#project-detail {
+  #project-detail {
     display: none;
-	}
+  }
 	
-	#project-detail-alt {
+  #project-detail-alt {
     display: inline-block;
     padding: 0px 3px 0px 3px;
-	}
+  }
 	
-	.project-detail-alt {
+  .project-detail-alt {
     display: inline-block;
     padding: 0px 3px 0px 3px;
-	}
+  }
 	
-	.project-photo {
+  .project-photo {
     float: left;
     height: 227px;
     padding: 2px 0px 0px 0px;
     max-width: 100%;
     max-height: 100%;
     width: 100%;
-	}
+  }
 	
-	.project-photo img {
+  .project-photo img {
     float: left;
     height: 100%;
-	}
+  }
 	
-	.project-title {
+  .project-title {
     background-image: none;
     float: left;
     font-size: 20px;
@@ -373,55 +373,55 @@ a:active {
     padding: 2px 0px 0px 2px;
     text-align: center;
     width: 100%;
-	}
+  }
 	
-	.project-des {
+  .project-des {
     float: left;
     height: 50%;
     margin: 0px;
     padding: 2px 0px 0px 2px;
     text-align: center;
     width: 100%;
-	}
+  }
 	
-	#project1,
-	#project2,
-	#project3,
-	#project12,
-	#project22,
-	#project32 {
+  #project1,
+  #project2,
+  #project3,
+  #project12,
+  #project22,
+  #project32 {
     background-image: url(//www.caa-aca.ca/conferences/isra2013/images/TO%20skyline4.jpeg);
     border-radius: 5px;
     display: inline-block;
     height: 105%;
     margin: 0px 0px 2px 0px;
     width: 100%;
-	}
+  }
 	
-	#featured-work {
+  #featured-work {
     font-size: 20px;
     height: 33px;
     padding: 2px 0px 0px 5px;
     text-align: center;
-	}
+  }
 	
-	header {
+  header {
     height: 60px;
-	}
+  }
 	
-	#header-pic-box {
+  #header-pic-box {
     display: none;
-	}
+  }
 	
-	#header-text-box {
+  #header-text-box {
     width: 100%;
-	}
+  }
 	
-	#name {
+  #name {
     font-size: 25px;
-	}
+  }
 	
-	#jtitle {
+  #jtitle {
     font-size: 13px;
-	}
+  }
 }
